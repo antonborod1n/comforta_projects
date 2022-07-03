@@ -1,0 +1,479 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "product": [
+                {
+                    "title": "Часы настенные",
+                    "text": "Равным образом сложившаяся структура организации позволяет оценить значение дальнейших направлений развития. Таким образом рамки и место обучения кадров требуют от нас анализа форм развития. Задача организации, в особенности же реализация намеченных плано",
+                    "date": "27/05/2022",
+                    "id": "10000",
+                    "category": "Диваны",
+                    "priceRUB": 1111,
+                    "salePriceRUB": 1112,
+                    "priceUSD": 1113,
+                    "salepriceUSD": 1114,
+                    "priceEUR": 1115,
+                    "priceBYN": 1116,
+                    "manufacturer": "IKEA",
+                    "guarantee": "12 месяцев",
+                    "weight": "2 кг",
+                    "new": true,
+                    "discount": true,
+                    "availability": 254,
+                    "img": "./images/product/1.jpg",
+                    "imgMin1": "./images/product/main-little1.jpg",
+                    "imgMin2": "./images/product/main-little2.jpg",
+                    "imgMin3": "./images/product/main-little3.jpg"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "product": [
+                {
+                    "title": "Богатый опыт рамки и место обучения кадров",
+                    "text": "Равным образом сложившаяся структура организации позволяет оценить значение дальнейших направлений развития. Таким образом рамки и место обучения кадров требуют от нас анализа форм развития. Задача организации, в особенности же реализация намеченных плано",
+                    "date": "21/05/2022",
+                    "id": "10001",
+                    "category": "Стулья",
+                    "priceRUB": 1211,
+                    "salePriceRUB": 1212,
+                    "salepriceUSD": 1213,
+                    "priceUSD": 1214,
+                    "priceEUR": 1215,
+                    "priceBYN": 1216,
+                    "manufacturer": "Comforta",
+                    "guarantee": "9 месяцев",
+                    "weight": "1 кг",
+                    "new": false,
+                    "discount": "yes",
+                    "availability": 42,
+                    "img": "./images/product/2.jpg",
+                    "imgMin1": "./images/product/main-little1.jpg",
+                    "imgMin2": "./images/product/main-little2.jpg",
+                    "imgMin3": "./images/product/main-little3.jpg"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "product": [
+                {
+                    "title": "Уточнения систем массового участия рамки",
+                    "text": "Равным образом сложившаяся структура организации позволяет оценить значение дальнейших направлений развития. Таким образом рамки и место обучения кадров требуют от нас анализа форм развития. Задача организации, в особенности же реализация намеченных плано",
+                    "date": "22/05/2022",
+                    "id": "10002",
+                    "category": "Стол",
+                    "priceRUB": 1311,
+                    "salePriceRUB": 1312,
+                    "salepriceUSD": 1313,
+                    "priceUSD": 1314,
+                    "priceEUR": 1315,
+                    "priceBYN": 1316,
+                    "manufacturer": "IKEA",
+                    "guarantee": "7 месяцев",
+                    "weight": "4 кг",
+                    "new": true,
+                    "discount": "no",
+                    "availability": 1124,
+                    "img": "./images/product/3.jpg",
+                    "imgMin1": "./images/product/main-little1.jpg",
+                    "imgMin2": "./images/product/main-little2.jpg",
+                    "imgMin3": "./images/product/main-little3.jpg"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "product": [
+                {
+                    "title": "Богатый опыт рамки и место обучения кадров",
+                    "text": "Равным образом сложившаяся структура организации позволяет оценить значение дальнейших направлений развития. Таким образом рамки и место обучения кадров требуют от нас анализа форм развития. Задача организации, в особенности же реализация намеченных плано",
+                    "date": "15/05/2022",
+                    "id": "10003",
+                    "category": "Стулья",
+                    "priceRUB": 1411,
+                    "salePriceRUB": 1417,
+                    "salepriceUSD": 1416,
+                    "priceUSD": 1412,
+                    "priceEUR": 1413,
+                    "priceBYN": 1414,
+                    "manufacturer": "Молодечномебель",
+                    "guarantee": "8 месяцев",
+                    "weight": "5 кг",
+                    "new": false,
+                    "discount": "yes",
+                    "availability": 422,
+                    "img": "./images/product/4.jpg",
+                    "imgMin1": "./images/product/main-little1.jpg",
+                    "imgMin2": "./images/product/main-little2.jpg",
+                    "imgMin3": "./images/product/main-little3.jpg"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "product": [
+                {
+                    "title": "Богатый опыт рамки и место обучения кадров",
+                    "text": "Равным образом сложившаяся структура организации позволяет оценить значение дальнейших направлений развития. Таким образом рамки и место обучения кадров требуют от нас анализа форм развития. Задача организации, в особенности же реализация намеченных плано",
+                    "date": "15/05/2022",
+                    "id": "10003",
+                    "category": "Стулья",
+                    "priceRUB": 1511,
+                    "salePriceRUB": 1512,
+                    "salepriceUSD": 1513,
+                    "priceUSD": 1514,
+                    "priceEUR": 1515,
+                    "priceBYN": 1516,
+                    "manufacturer": "Молодечномебель",
+                    "guarantee": "8 месяцев",
+                    "weight": "5 кг",
+                    "new": false,
+                    "discount": "yes",
+                    "availability": 422,
+                    "img": "./images/product/5.jpg",
+                    "imgMin1": "./images/product/main-little1.jpg",
+                    "imgMin2": "./images/product/main-little2.jpg",
+                    "imgMin3": "./images/product/main-little3.jpg"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "product": [
+                {
+                    "title": "Богатый опыт рамки и место обучения кадров",
+                    "text": "Равным образом сложившаяся структура организации позволяет оценить значение дальнейших направлений развития. Таким образом рамки и место обучения кадров требуют от нас анализа форм развития. Задача организации, в особенности же реализация намеченных плано",
+                    "date": "15/05/2022",
+                    "id": "10003",
+                    "category": "Стулья",
+                    "priceRUB": 1611,
+                    "salePriceRUB": 1612,
+                    "salepriceUSD": 1613,
+                    "priceUSD": 1614,
+                    "priceEUR": 1615,
+                    "priceBYN": 1616,
+                    "manufacturer": "Молодечномебель",
+                    "guarantee": "8 месяцев",
+                    "weight": "5 кг",
+                    "new": false,
+                    "discount": "yes",
+                    "availability": 422,
+                    "img": "./images/product/6.jpg",
+                    "imgMin1": "./images/product/main-little1.jpg",
+                    "imgMin2": "./images/product/main-little2.jpg",
+                    "imgMin3": "./images/product/main-little3.jpg"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "product": [
+                {
+                    "title": "Богатый опыт рамки и место обучения кадров",
+                    "text": "Равным образом сложившаяся структура организации позволяет оценить значение дальнейших направлений развития. Таким образом рамки и место обучения кадров требуют от нас анализа форм развития. Задача организации, в особенности же реализация намеченных плано",
+                    "date": "15/05/2022",
+                    "id": "10003",
+                    "category": "Стулья",
+                    "priceRUB": 1711,
+                    "salePriceRUB": 1712,
+                    "salepriceUSD": 1713,
+                    "priceUSD": 1714,
+                    "priceEUR": 1715,
+                    "priceBYN": 1716,
+                    "manufacturer": "Молодечномебель",
+                    "guarantee": "8 месяцев",
+                    "weight": "5 кг",
+                    "new": false,
+                    "discount": "yes",
+                    "availability": 422,
+                    "img": "./images/product/7.jpg",
+                    "imgMin1": "./images/product/main-little1.jpg",
+                    "imgMin2": "./images/product/main-little2.jpg",
+                    "imgMin3": "./images/product/main-little3.jpg"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "product": [
+                {
+                    "title": "Богатый опыт рамки и место обучения кадров",
+                    "text": "Равным образом сложившаяся структура организации позволяет оценить значение дальнейших направлений развития. Таким образом рамки и место обучения кадров требуют от нас анализа форм развития. Задача организации, в особенности же реализация намеченных плано",
+                    "date": "15/05/2022",
+                    "id": "10003",
+                    "category": "Стулья",
+                    "priceRUB": 1911,
+                    "salePriceRUB": 1913,
+                    "salepriceUSD": 1912,
+                    "priceUSD": 1914,
+                    "priceEUR": 1915,
+                    "priceBYN": 1916,
+                    "manufacturer": "Молодечномебель",
+                    "guarantee": "8 месяцев",
+                    "weight": "5 кг",
+                    "new": false,
+                    "discount": "yes",
+                    "availability": 422,
+                    "img": "./images/product/8.jpg",
+                    "imgMin1": "./images/product/main-little1.jpg",
+                    "imgMin2": "./images/product/main-little2.jpg",
+                    "imgMin3": "./images/product/main-little3.jpg"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "product": [
+                {
+                    "title": "Богатый опыт рамки и место обучения кадров",
+                    "text": "Равным образом сложившаяся структура организации позволяет оценить значение дальнейших направлений развития. Таким образом рамки и место обучения кадров требуют от нас анализа форм развития. Задача организации, в особенности же реализация намеченных плано",
+                    "date": "15/05/2022",
+                    "id": "10003",
+                    "category": "Стулья",
+                    "priceRUB": 1911,
+                    "salePriceRUB": 1912,
+                    "salepriceUSD": 1913,
+                    "priceUSD": 908,
+                    "priceEUR": 900,
+                    "priceBYN": 950,
+                    "manufacturer": "Молодечномебель",
+                    "guarantee": "8 месяцев",
+                    "weight": "5 кг",
+                    "new": false,
+                    "discount": "yes",
+                    "availability": 422,
+                    "img": "./images/product/9.jpg",
+                    "imgMin1": "./images/product/main-little1.jpg",
+                    "imgMin2": "./images/product/main-little2.jpg",
+                    "imgMin3": "./images/product/main-little3.jpg"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "product": [
+                {
+                    "title": "Богатый опыт рамки и место обучения кадров",
+                    "text": "Равным образом сложившаяся структура организации позволяет оценить значение дальнейших направлений развития. Таким образом рамки и место обучения кадров требуют от нас анализа форм развития. Задача организации, в особенности же реализация намеченных плано",
+                    "date": "15/05/2022",
+                    "id": "10003",
+                    "category": "Стулья",
+                    "priceRUB": 10111,
+                    "salePriceRUB": 10112,
+                    "salepriceUSD": 10113,
+                    "priceUSD": 10114,
+                    "priceEUR": 10115,
+                    "priceBYN": 10116,
+                    "manufacturer": "Молодечномебель",
+                    "guarantee": "8 месяцев",
+                    "weight": "5 кг",
+                    "new": false,
+                    "discount": "yes",
+                    "availability": 422,
+                    "img": "./images/product/10.jpg",
+                    "imgMin1": "./images/product/main-little1.jpg",
+                    "imgMin2": "./images/product/main-little2.jpg",
+                    "imgMin3": "./images/product/main-little3.jpg"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "product": [
+                {
+                    "title": "Богатый опыт рамки и место обучения кадров",
+                    "text": "Равным образом сложившаяся структура организации позволяет оценить значение дальнейших направлений развития. Таким образом рамки и место обучения кадров требуют от нас анализа форм развития. Задача организации, в особенности же реализация намеченных плано",
+                    "date": "15/05/2022",
+                    "id": "10003",
+                    "category": "Стулья",
+                    "priceRUB": 11111,
+                    "salePriceRUB": 11112,
+                    "salepriceUSD": 11113,
+                    "priceUSD": 11114,
+                    "priceEUR": 11115,
+                    "priceBYN": 11116,
+                    "manufacturer": "Молодечномебель",
+                    "guarantee": "8 месяцев",
+                    "weight": "5 кг",
+                    "new": false,
+                    "discount": "yes",
+                    "availability": 422,
+                    "img": "./images/product/11.jpg",
+                    "imgMin1": "./images/product/main-little1.jpg",
+                    "imgMin2": "./images/product/main-little2.jpg",
+                    "imgMin3": "./images/product/main-little3.jpg"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "product": [
+                {
+                    "title": "Богатый опыт рамки и место обучения кадров",
+                    "text": "Равным образом сложившаяся структура организации позволяет оценить значение дальнейших направлений развития. Таким образом рамки и место обучения кадров требуют от нас анализа форм развития. Задача организации, в особенности же реализация намеченных плано",
+                    "date": "15/05/2022",
+                    "id": "10003",
+                    "category": "Стулья",
+                    "priceRUB": 12111,
+                    "salePriceRUB": 12112,
+                    "salepriceUSD": 12113,
+                    "priceUSD": 12114,
+                    "priceEUR": 12115,
+                    "priceBYN": 12116,
+                    "manufacturer": "Молодечномебель",
+                    "guarantee": "8 месяцев",
+                    "weight": "5 кг",
+                    "new": false,
+                    "discount": "yes",
+                    "availability": 422,
+                    "img": "./images/product/12.jpg",
+                    "imgMin1": "./images/product/main-little1.jpg",
+                    "imgMin2": "./images/product/main-little2.jpg",
+                    "imgMin3": "./images/product/main-little3.jpg"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "product": [
+                {
+                    "title": "Богатый опыт рамки и место обучения кадров",
+                    "text": "Равным образом сложившаяся структура организации позволяет оценить значение дальнейших направлений развития. Таким образом рамки и место обучения кадров требуют от нас анализа форм развития. Задача организации, в особенности же реализация намеченных плано",
+                    "date": "15/05/2022",
+                    "id": "10003",
+                    "category": "Стулья",
+                    "priceRUB": 13111,
+                    "salePriceRUB": 13112,
+                    "salepriceUSD": 13113,
+                    "priceUSD": 13114,
+                    "priceEUR": 13115,
+                    "priceBYN": 13116,
+                    "manufacturer": "Молодечномебель",
+                    "guarantee": "8 месяцев",
+                    "weight": "5 кг",
+                    "new": false,
+                    "discount": "yes",
+                    "availability": 422,
+                    "img": "./images/product/13.jpg",
+                    "imgMin1": "./images/product/main-little1.jpg",
+                    "imgMin2": "./images/product/main-little2.jpg",
+                    "imgMin3": "./images/product/main-little3.jpg"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "product": [
+                {
+                    "title": "Богатый опыт рамки и место обучения кадров",
+                    "text": "Равным образом сложившаяся структура организации позволяет оценить значение дальнейших направлений развития. Таким образом рамки и место обучения кадров требуют от нас анализа форм развития. Задача организации, в особенности же реализация намеченных плано",
+                    "date": "15/05/2022",
+                    "id": "10003",
+                    "category": "Стулья",
+                    "priceRUB": 14111,
+                    "salePriceRUB": 14112,
+                    "salepriceUSD": 14113,
+                    "priceUSD": 14114,
+                    "priceEUR": 14115,
+                    "priceBYN": 14116,
+                    "manufacturer": "Молодечномебель",
+                    "guarantee": "8 месяцев",
+                    "weight": "5 кг",
+                    "new": false,
+                    "discount": "yes",
+                    "availability": 422,
+                    "img": "./images/product/14.jpg",
+                    "imgMin1": "./images/product/main-little1.jpg",
+                    "imgMin2": "./images/product/main-little2.jpg",
+                    "imgMin3": "./images/product/main-little3.jpg"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "product": [
+                {
+                    "title": "Богатый опыт рамки и место обучения кадров",
+                    "text": "Равным образом сложившаяся структура организации позволяет оценить значение дальнейших направлений развития. Таким образом рамки и место обучения кадров требуют от нас анализа форм развития. Задача организации, в особенности же реализация намеченных плано",
+                    "date": "15/05/2022",
+                    "id": "10003",
+                    "category": "Стулья",
+                    "priceRUB": 15111,
+                    "salePriceRUB": 15112,
+                    "salepriceUSD": 15113,
+                    "priceUSD": 15114,
+                    "priceEUR": 15115,
+                    "priceBYN": 15116,
+                    "manufacturer": "Молодечномебель",
+                    "guarantee": "8 месяцев",
+                    "weight": "5 кг",
+                    "new": false,
+                    "discount": "yes",
+                    "availability": 422,
+                    "img": "./images/product/15.jpg",
+                    "imgMin1": "./images/product/main-little1.jpg",
+                    "imgMin2": "./images/product/main-little2.jpg",
+                    "imgMin3": "./images/product/main-little3.jpg"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "product": [
+                {
+                    "title": "Богатый опыт рамки и место обучения кадров",
+                    "text": "Равным образом сложившаяся структура организации позволяет оценить значение дальнейших направлений развития. Таким образом рамки и место обучения кадров требуют от нас анализа форм развития. Задача организации, в особенности же реализация намеченных плано",
+                    "date": "15/05/2022",
+                    "id": "10003",
+                    "category": "Стулья",
+                    "priceRUB":  16111,
+                    "salePriceRUB":  16112,
+                    "salepriceUSD":  16113,
+                    "priceUSD": 16114,
+                    "priceEUR": 16115,
+                    "priceBYN": 16116,
+                    "manufacturer": "Молодечномебель",
+                    "guarantee": "8 месяцев",
+                    "weight": "5 кг",
+                    "new": false,
+                    "discount": "yes",
+                    "availability": 422,
+                    "img": "./images/product/16.jpg",
+                    "imgMin1": "./images/product/main-little1.jpg",
+                    "imgMin2": "./images/product/main-little2.jpg",
+                    "imgMin3": "./images/product/main-little3.jpg"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "product": [
+                {
+                    "title": "Богатый опыт рамки и место обучения кадров",
+                    "text": "Равным образом сложившаяся структура организации позволяет оценить значение дальнейших направлений развития. Таким образом рамки и место обучения кадров требуют от нас анализа форм развития. Задача организации, в особенности же реализация намеченных плано",
+                    "date": "15/05/2022",
+                    "id": "10003",
+                    "category": "Стулья",
+                    "priceRUB": 17111,
+                    "salePriceRUB": 17112,
+                    "salepriceUSD": 17113,
+                    "priceUSD": 17114,
+                    "priceEUR": 17115,
+                    "priceBYN": 17116,
+                    "manufacturer": "Молодечномебель",
+                    "guarantee": "8 месяцев",
+                    "weight": "5 кг",
+                    "new": true,
+                    "availability": 422,
+                    "img": "./images/product/17.jpg",
+                    "imgMin1": "./images/product/main-little1.jpg",
+                    "imgMin2": "./images/product/main-little2.jpg",
+                    "imgMin3": "./images/product/main-little3.jpg"
+                }
+            ]
+        }
+    ]
+}

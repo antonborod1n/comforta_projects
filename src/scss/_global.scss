@@ -1,0 +1,145 @@
+html,
+body {
+    height: 100%;
+    position: relative;
+}
+
+body {
+    @extend %montserrat-400;
+    font-size: 13px;
+    color: $text;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.btn {
+    @extend %btn;
+}
+
+.breadcrumbs {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    &__list {
+        display: flex;
+    }
+    &__item {
+        position: relative;
+        margin-right: 25px;
+        color: $text;
+        cursor: pointer;
+        &::after {
+            content: "";
+            position: absolute;
+            background-image: url(../images/icons/arrow-right.svg);
+            top: 5px;
+            right: -20px;
+            width: 15px;
+            height: 15px;
+        }
+        &:last-child::after {
+            display: none;
+        }
+    }
+    &__link {
+        color: inherit;
+        &:hover {
+            color: $title;
+        }
+    }
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #FFFFFF;
+    & a {
+        margin-left: 5px;
+    }
+    &__link {
+        padding: 10px;
+        background: #EDEDED;
+        border-radius: 40px;
+        font-size: 13px;
+        color: $title;
+        padding: 10px 20px;
+        &--active {
+            background-color: $accent;
+            color: #FFFFFF;
+        }
+        &-more {
+            position: relative;
+            border: none;
+            padding: 0 40px 0 20px;
+            background-color: $accent;
+            border-radius: 100px;
+            @extend %montserrat-400;
+            font-size: 13px;
+            line-height: 40px;
+            color: $title;
+            cursor: pointer;
+
+            &::after {
+                position: absolute;
+                content: url(../images/icons/arrow-down.svg);
+                top: 0;
+                right: 16px;
+                width: 10px;
+                height: 10px;
+            }
+        }
+        &-next {
+            padding: 10px;
+            background: #EDEDED;
+            border-radius: 40px;
+            font-size: 13px;
+            color: $title;
+        }
+    }
+}
+
+.img__scale {
+    transition: all 0.5s;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+/* .arrow-up {
+    width: 50px;
+    height: 50px;
+    background-color: #FFFFFF;
+    background: aqua;
+    border-radius: 10px;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    background-image: url(../images/icons/up-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    transition: 0.5s linear; 
+}
+
+.arrow-up.arrow-up--active {
+    bottom: 20px;
+    transition: 0.5s linear;
+}
+
+.arrow-up--active:hover {
+    background-color: #ffb8be;
+} */
