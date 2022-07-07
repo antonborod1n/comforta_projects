@@ -1,6 +1,9 @@
-const tabsBtn = document.querySelectorAll('.goods__tabs-control-btn');
-const tabsContent = document.querySelectorAll('.goods__tabs-content-block');
-const tabsControl = document.querySelector('.goods__tabs-control');
+'use strict'; /*- объявляем что будем работать в новом режиме */
+
+// Переменные 
+const tabsBtn = document.querySelectorAll('.goods__tabs-control-btn'),
+      tabsContent = document.querySelectorAll('.goods__tabs-content-block'),
+      tabsControl = document.querySelector('.goods__tabs-control');
 
 function hideTabContent() {
     tabsContent.forEach(item => {

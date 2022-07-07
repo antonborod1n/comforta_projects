@@ -1,7 +1,10 @@
-const modal = document.querySelector('.modal');
-const modalInner = document.querySelector('.modal__inner');
-const modalCloseBtn = document.querySelector('.modal__close');
-const asideBannerLink = document.querySelector('.shop__aside-banner-link');
+'use strict'; /*- объявляем что будем работать в новом режиме */
+
+// Переменные 
+const modal = document.querySelector('.modal'),
+      modalInner = document.querySelector('.modal__inner'),
+      modalCloseBtn = document.querySelector('.modal__close'),
+      asideBannerLink = document.querySelector('.shop__aside-banner-link');
 
 // Модальное окно когда опускается на 800px
 function modalScroll() {
@@ -31,7 +34,7 @@ function showModalTime(time) {
     }, time);
 }
 
-showModalTime(1000000);
+showModalTime(5000);
 
 // Кнопка закрытия окна
 modalCloseBtn.addEventListener('click', function () {

@@ -1,5 +1,4 @@
 import "../modules/cart";
-import "../modules/currency";
 import "../modules/infoBlock";
 import "../modules/localstorage";
 import "../modules/main";

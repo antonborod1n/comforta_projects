@@ -24,21 +24,81 @@ body {
 }
 
 .btn {
-    @extend %btn;
+    position: relative;
+    padding: 12px 40px 12px 20px;
+    background-color: $accent;
+    border-radius: 100px;
+    font-family: 'Montserrat-Regular';
+    font-size: 13px;
+    line-height: 40px;
+    color: #1a1a1a;
+    cursor: pointer;
+}
+
+.title {
+    position: relative;
+    font-family: 'Montserrat-Regular';
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    color: #1a1a1a;
+}
+
+.btn::after {
+    position: absolute;
+    content: url(../images/icons/arrow-back-btn.svg);
+    top: 2px;
+    right: 16px;
+}
+
+.arrow-up {
+    transition: 0.5s linear;
+    width: 50px;
+    height: 50px;
+    background-color: $accent;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 100;
+    bottom: -100px;
+    right: 10px;
+    background-image: url(../images/icons/house.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+
+    &.arrow-up--active {
+        bottom: 20px;
+        transition: 0.5s linear;
+    }
+
+    &--active:hover {
+        background-color: #ffb8be;
+    }
+}
+
+.img__scale {
+    transition: all 0.5s;
+
+    &:hover {
+        transform: scale(1.1);
+    }
 }
 
 .breadcrumbs {
     display: flex;
     justify-content: center;
     padding: 10px 0;
+
     &__list {
         display: flex;
     }
+
     &__item {
         position: relative;
         margin-right: 25px;
         color: $text;
         cursor: pointer;
+
         &::after {
             content: "";
             position: absolute;
@@ -48,12 +108,15 @@ body {
             width: 15px;
             height: 15px;
         }
+
         &:last-child::after {
             display: none;
         }
     }
+
     &__link {
         color: inherit;
+
         &:hover {
             color: $title;
         }
@@ -62,13 +125,15 @@ body {
 
 .pagination {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding: 20px;
     background: #FFFFFF;
+
     & a {
         margin-left: 5px;
     }
+
     &__link {
         padding: 10px;
         background: #EDEDED;
@@ -76,31 +141,12 @@ body {
         font-size: 13px;
         color: $title;
         padding: 10px 20px;
+
         &--active {
             background-color: $accent;
             color: #FFFFFF;
         }
-        &-more {
-            position: relative;
-            border: none;
-            padding: 0 40px 0 20px;
-            background-color: $accent;
-            border-radius: 100px;
-            @extend %montserrat-400;
-            font-size: 13px;
-            line-height: 40px;
-            color: $title;
-            cursor: pointer;
 
-            &::after {
-                position: absolute;
-                content: url(../images/icons/arrow-down.svg);
-                top: 0;
-                right: 16px;
-                width: 10px;
-                height: 10px;
-            }
-        }
         &-next {
             padding: 10px;
             background: #EDEDED;
@@ -111,35 +157,64 @@ body {
     }
 }
 
-.img__scale {
-    transition: all 0.5s;
-    &:hover {
-        transform: scale(1.1);
+.anim__opas {
+    animation-name: opas;
+    animation-duration: 1.0s;
+}
+
+@keyframes opas {
+    from {
+        opacity: 0.1;
+    }
+
+    to {
+        opacity: 1;
     }
 }
 
-/* .arrow-up {
-    width: 50px;
-    height: 50px;
-    background-color: #FFFFFF;
-    background: aqua;
-    border-radius: 10px;
-    position: fixed;
-    z-index: 1;
-    bottom: 0;
-    right: 0;
-    background-image: url(../images/icons/up-arrow.svg);
-    background-repeat: no-repeat;
-    background-position: center center;
+//SLICK-SLIDER
+
+.top-slider__content .slick-slide,
+.goods-content__slide-thumb .slick-slide,
+.goods-content__slide-big .slick-slide {
+    margin-left: 0;
+}
+
+.slick-slide {
+    margin: 0 15px;
+}
+
+.slick-prev,
+.slick-next {
+    position: absolute;
+    top: 150px;
+    border: none;
+    background-color: transparent;
+    padding: 0;
     cursor: pointer;
-    transition: 0.5s linear; 
+    opacity: 0;
 }
 
-.arrow-up.arrow-up--active {
-    bottom: 20px;
-    transition: 0.5s linear;
+.slick-next {
+    right: 0;
+    opacity: 0;
 }
 
-.arrow-up--active:hover {
-    background-color: #ffb8be;
-} */
+.slick-prev {
+    left: 0;
+    opacity: 0;
+}
+
+.new-product__box:hover .slick-next,
+.goods__box:hover .slick-next {
+    right: -38px;
+    transition: all .3s;
+    opacity: 1;
+}
+
+.new-product__box:hover .slick-prev,
+.goods__box:hover .slick-prev {
+    left: -35px;
+    transition: all .5s;
+    opacity: 1;
+}

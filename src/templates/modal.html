@@ -1,0 +1,23 @@
+<div class="modal">
+    <div class="modal__inner">
+        <div class="modal__content">
+            <div class="modal__top">
+                <p class="modal__title">Оставьте свои данные!</p>
+                <button type="button" class="modal__close" data-dismiss="modal"></button>
+            </div>
+            <form action="https://fe.it-academy.by/TestForm.php" target="_blank" class="form" method="get"
+                name="formMain">
+                <div class="form-group">
+                    <label class="label__info" for="feedback-name">Имя:</label>
+                    <input class="input-control" type="text" name="name" placeholder="Ваше имя" required="">
+                </div>
+                <div class="form-group">
+                    <label class="label__info" for="feedback-phone">Телефон:</label>
+                    <input class="input-control" type="tel" id="phone" name="phone"
+                        placeholder="+375__-_______" required="">
+                </div>
+                <button id="button" class="modal__btn">Отправить</button>
+            </form>
+        </div>
+    </div>
+</div>

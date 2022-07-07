@@ -1,3 +1,6 @@
+'use strict'; /*- объявляем что будем работать в новом режиме */
+
+//Добавляем классы
 class BlogItem {
     constructor(src, alt, date, userName, section, title, text) {
         this.src = src;
@@ -8,7 +11,7 @@ class BlogItem {
         this.title = title;
         this.text = text;
     }
-
+//Метод отрисовки 
     render() {
         const infoInner = document.querySelector('.info__inner');
         const infoBlockHtml = `

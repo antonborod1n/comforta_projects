@@ -1,75 +1,19 @@
-// Переменные 
-const mainProductBox = document.querySelectorAll('.product');
-const mainGoodsBox = document.querySelectorAll('.goods__content');
-const GOODS_LIST = 'http://localhost:3000/data';
+'use strict'; /*- объявляем что будем работать в новом режиме */
 
-const formCarrancy = document.forms['form-currency'];
-const select = formCarrancy.querySelector('select');
-const optionAll = formCarrancy.querySelectorAll('option');
+// Переменные 
+const mainProductBox = document.querySelectorAll('.product'),
+      mainGoodsBox = document.querySelectorAll('.goods__content'),
+      GOODS_LIST = 'http://localhost:3000/data';
 
 // Получение данных о товарах
 async function getGoods() {
     const res = await fetch(GOODS_LIST);
     const mainProductArr = await res.json();
     renderGoods(mainProductArr);
-    //renderGoods1(mainProductArr);
     renderFirstGoods(mainProductArr);
-    changeCarrancy(mainProductArr);
 }
 
 getGoods();
-
-function changeCarrancy(mainProductArr) {
-    setTimeout(function () {
-        const productItemPrice = document.querySelectorAll('.product-item__price');
-        const productItemPriceCar = document.querySelectorAll('.product-item__price-carrancy');
-
-        //Делаем массив
-        const arrProductItemPrice = [...productItemPrice];
-        const arrProductItemPriceCar = [...productItemPriceCar];
-
-        // Получаем значение селекта
-
-        // Перебор товаров 
-        /* function foo() {
-            const arrProduct = mainProductArr;
-            arrProduct.forEach((item) => {
-                const newArrProduct = item.product;
-                newArrProduct.forEach((item) => {
-                    select.addEventListener('click', function () {
-                        if (select.value === 'RUB') {
-                            setRub();
-                        } else if (select.value === 'USD') {
-                            setUsd();
-                        }
-                    });
-
-                    function setUsd() {
-                        arrProductItemPrice.forEach((element) => {
-                            element.textContent = item.salepriceUSD;
-
-                        });
-                        productItemPriceCar.forEach((element) => {
-                            element.textContent = '$';
-                        });
-                    }
-
-                    function setRub() {
-                        arrProductItemPrice.forEach((element) => {
-                            element.textContent = item.salePriceRUB;
-                        });
-                        productItemPriceCar.forEach((element) => {
-                            element.textContent = '₽';
-                        });
-                    }
-                });
-            });
-        }
-        foo(); */
-    }, 1000);
-}
-
-changeCarrancy();
 
 //Отрисовка товаров на странице
 function renderGoods(mainProductArr) {
@@ -77,7 +21,7 @@ function renderGoods(mainProductArr) {
         const newArr = item.product;
         newArr.forEach(elem => {
             const productHtml = `
-        <div class="product-item">
+        <div class="product-item" data-sort="${elem.salePriceRUB}" >
                         <div class="product-item-box" data-id="${elem.id}">
                             <div class="product__new">${elem.new === true ? "NEW" : "old"}</div>
                             <div class="product__sale">${elem.discount === true ? "SALE" : "nosale"}</div>
@@ -216,35 +160,14 @@ function renderFirstGoods(mainProductArr) {
                         class="goods__item-price-carrancy">₽</span>
                 </div>
             </div>
-            <form class="goods__form" action="#" method="post" name="product-form">
-                <label class="goods__form-color">
-                    Цвет:
-                    <select class="goods__form-select" name="color">
-                        <option value="select" selected>Выбрать</option>
-                        <option value="red">Красный</option>
-                        <option value="blue">Синий</option>
-                        <option value="white">Белый</option>
-                        <option value="green">Зеленый</option>
-                    </select>
-                </label>
-                <label class="goods__form-size">
-                    Размер:
-                    <select class="goods__form-select" name="size">
-                        <option value="select" selected>Выбрать</option>
-                        <option value="small">Маленький</option>
-                        <option value="medium">Средний</option>
-                        <option value="big">Большой</option>
-                    </select>
-                </label>
-                <div class="goods__form-box">
-                    <button class="goods__form-btn goods__form-btn-bye" type="submit">
+            <div class="goods__form-box">
+                    <button class="goods__form-btn goods__form-btn-bye" data-cart>
                         Купить
                     </button>
-                    <button class="goods__form-btn goods__form-btn-one" type="submit">
+                    <button class="goods__form-btn goods__form-btn-one">
                         Купить в 1 клик</button>
                     <button class="goods__form-btn goods__form-btn-like" href="#"></button>
                 </div>
-            </form>
             <div class="goods__top-characteristic">
                 <ul class="goods__top-list">
                     <li class="goods__top-item">

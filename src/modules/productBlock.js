@@ -1,4 +1,6 @@
+'use strict'; /*- объявляем что будем работать в новом режиме */
 
+// Переменные 
 const controlBtnGrid = document.querySelector('.shop__control-btn--grid'),
     controlBtnBlock = document.querySelector('.shop__control-btn--block'),
     shopProduct = document.querySelector('.shop__product'),
